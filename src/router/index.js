@@ -1,11 +1,11 @@
-import HomePage from './components/HomePage.vue';
-import Monitor from './components/monitor/Monitor.vue';
-import Login from './components/auth/Login.vue';
-import SignUp from './components/auth/SignUp.vue';
-import Profile from './components/profile/Profile.vue';
-import Reports from './components/reports/Reports.vue'
-import Meds from './components/meds/Meds.vue';
-import Graphs from './components/monitor/Graphs.vue';
+import HomePage from '../components/HomePage.vue';
+import Monitor from '../components/monitor/Monitor.vue';
+import Login from '../components/auth/Login.vue';
+import SignUp from '../components/auth/SignUp.vue';
+import Profile from '../components/profile/Profile.vue';
+import Reports from '../components/reports/Reports.vue'
+import Meds from '../components/meds/Meds.vue';
+import Graphs from '../components/monitor/Graphs.vue';
 
 export const routes = [
   { path:'' , component:HomePage , name:'homepage'},
