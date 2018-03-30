@@ -4,7 +4,12 @@
 
 <script>
     export default {
-        name: "reports"
+        name: "reports",
+      created() {
+        if (this.$store.state.token === '') {
+          this.$router.push({path: "/login"});
+        }
+      },
     }
 </script>
 

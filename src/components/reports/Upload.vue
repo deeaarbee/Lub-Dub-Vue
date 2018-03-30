@@ -1,10 +1,15 @@
 <template>
-    
+
 </template>
 
 <script>
     export default {
-        name: "upload"
+        name: "upload",
+      created() {
+        if (this.$store.state.token === '') {
+          this.$router.push({path: "/login"});
+        }
+      },
     }
 </script>
 

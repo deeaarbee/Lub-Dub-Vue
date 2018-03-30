@@ -7,7 +7,7 @@ import { apiMixin} from "./helperScripts/api";
 import { store } from './store/store.js';
 
 
-export const BASE_URL = 'http://deeaarbee.tech/lubdub/api';
+export const BASE_URL = 'http://deeaarbee.tech/lubdub/api/';
 Vue.use(VueResource);
 Vue.use(VueRouter);
 

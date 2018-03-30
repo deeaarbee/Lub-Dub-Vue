@@ -7,7 +7,8 @@
 
     export default {
         name: "sign-up",
-        mixins:[apiMixin]
+        mixins:[apiMixin],
+
     }
 </script>
 

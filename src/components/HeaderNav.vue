@@ -28,7 +28,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profile <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <router-link to="/profile" tag="li"><a> Profile</a></router-link>
-                                <router-link to="/logout" tag="li" ><a> Logout</a></router-link>
+                                <router-link to="/login" tag="li" ><a> Logout</a></router-link>
                                 <li role="separator" class="divider"></li>
                                 <li><a href="#">Kill me</a></li>
                             </ul>
